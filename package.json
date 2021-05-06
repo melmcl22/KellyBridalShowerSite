@@ -1,26 +1,28 @@
 {
-  "name": "kellybridalshowersite",
+  "name": "KellyBridalShowerSite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melmcl22/KellyBridalShowerSite.git"
   },
-  "author": "mel",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/melmcl22/KellyBridalShowerSite/issues"
   },
   "homepage": "https://github.com/melmcl22/KellyBridalShowerSite#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^3.1.6",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nexmo": "^2.9.1",
-    "socket.io": "^4.0.1"
+    "g": "^2.0.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
   }
 }
