@@ -8,9 +8,13 @@ const PATH = 3000;
 app.use(cors());
 app.use("/", express.static(path.resolve("./web/static")))
 
-app.get("/message", sendInviteMiddleware, (req, res) => {
+app.get("/sendMessages", sendInviteMiddleware, (req, res) => {
     res.send(res.json(res.body.message));
 });
+
+// app.post("/sendMessages/{id}", sendMessageToPerson, (req, res) =>{
+//     res.send(res.json(res.body.message));
+// });
 
 app.listen(PATH);
 
