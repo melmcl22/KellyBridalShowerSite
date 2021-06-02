@@ -2,7 +2,6 @@ const fetch = require("node-fetch");
 
 module.exports = (req, res, next) => {
 
-    console.log(secrets.apiKey)
     //connect to database
 
 
@@ -17,7 +16,7 @@ module.exports = (req, res, next) => {
             body: JSON.stringify({
                 phone: el.number,
                 message: 'Hello ' + el.name + ' youre a turd ',
-                key: 'scdf80dd774b686fa55f87f23187c80f1470fb4175lDILWS1xiZfpMW1I5EdXSGE3',
+                key: 'cdf80dd774b686fa55f87f23187c80f1470fb4175lDILWS1xiZfpMW1I5EdXSGE3Ú',
             }),
             }).then(response => {
                 return response.json();

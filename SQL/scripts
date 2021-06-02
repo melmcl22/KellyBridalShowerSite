@@ -1,0 +1,7 @@
+create table guests (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    guest_name VARCHAR(255),
+    phone_number VARCHAR(225),
+    sent_message BOOLEAN,
+    attending BOOLEAN
+)
